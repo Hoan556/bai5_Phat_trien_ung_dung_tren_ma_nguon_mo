@@ -259,8 +259,14 @@ telegram sender
 Nối:
 
 Function Alert
- ↓
+ với
 Telegram Sender
+<img width="1290" height="2796" alt="image" src="https://github.com/user-attachments/assets/4d389616-6819-4fb0-b4a2-63d643652b0b" />
+
+<img width="1290" height="2796" alt="image" src="https://github.com/user-attachments/assets/451bdb4d-f00a-493d-b594-68189b475c22" />
+
+
+
 <img width="948" height="1015" alt="image" src="https://github.com/user-attachments/assets/6132bf8b-25ed-47b7-9af0-45145499fdaf" />
 
 deploy
