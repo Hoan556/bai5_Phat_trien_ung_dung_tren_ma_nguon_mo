@@ -282,6 +282,8 @@ Tạo thư mục: mkdir -p nginx/html
 - Tạo file index.html: nano ~/bt5-monitor/nginx/html/index.html
 <img width="1716" height="963" alt="image" src="https://github.com/user-attachments/assets/d02cbb59-b4f0-43c9-9978-0972f9de1d7f" />
 
+<img width="1653" height="180" alt="image" src="https://github.com/user-attachments/assets/40fd8fd2-75fb-4a0a-8dc5-533a03c07de3" />
+
 - kết quả
 - Truy Cập: http://192.168.18.134:8088
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5065bb49-5e1f-4db1-b5f2-ee49f5d374da" />
