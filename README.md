@@ -562,6 +562,7 @@ Laptop Developer
       ▼
 Ứng dụng hoạt động
 ```
+# THỰC HÀNH ÁP DỤNG : APP MONITOR + ALERT DATA REALTIME
 - Tạo thư mục BT5
 Chạy:
 mkdir ~/bt5-monitor
