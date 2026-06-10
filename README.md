@@ -264,6 +264,8 @@ Telegram Sender
 <img width="1290" height="2796" alt="image" src="https://github.com/user-attachments/assets/4d389616-6819-4fb0-b4a2-63d643652b0b" />
 
 <img width="1290" height="2796" alt="image" src="https://github.com/user-attachments/assets/451bdb4d-f00a-493d-b594-68189b475c22" />
+- Kết quả tạo bot
+  <img width="1290" height="2796" alt="image" src="https://github.com/user-attachments/assets/3fc2bc18-c997-45be-b535-e2389cb94548" />
 
 
 
