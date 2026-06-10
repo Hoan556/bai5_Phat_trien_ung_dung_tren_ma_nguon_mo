@@ -298,5 +298,82 @@ Tạo thư mục: mkdir -p nginx/html
 - Truy Cập: http://192.168.18.134:8088
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/5065bb49-5e1f-4db1-b5f2-ee49f5d374da" />
 
+-  xuất tất cả các container ra file nén.
+     xoá mọi container đang chạy
+     load lại các container  từ file nén để khôi phục các container đã xoá
+- XEM CÁC IMAGE ĐANG DÙNG
+
+Chạy:
+docker images
+<img width="687" height="291" alt="image" src="https://github.com/user-attachments/assets/3a5e3c38-10ed-463e-9de5-5c401caedb71" />
+
+- TẠO THƯ MỤC BACKUP
+<img width="690" height="182" alt="image" src="https://github.com/user-attachments/assets/6fe56b4b-fd80-439b-b7bc-7daef511f1b7" />
+
+- EXPORT IMAGE
+<img width="605" height="204" alt="image" src="https://github.com/user-attachments/assets/1491520f-aca8-45a3-86ca-073de7ba39f3" />
+
+- KIỂM TRA FILE
+
+Khi lệnh trên chạy xong (xuất hiện lại dấu nhắc lệnh):
+
+ls -lh ~/bt5-backup
+<img width="611" height="96" alt="image" src="https://github.com/user-attachments/assets/7db76553-655d-4952-9576-a777e1a52631" />
+
+- NÉN FILE
+gzip ~/bt5-backup/bt5-images.tar
+
+Kiểm tra:
+
+ls -lh ~/bt5-backup
+<img width="645" height="97" alt="image" src="https://github.com/user-attachments/assets/ddfb8426-c67b-4e09-9c3e-8e7636119e46" />
+
+- DỪNG HỆ THỐNG
+cd ~/bt5-monitor
+
+docker compose down
+
+Kiểm tra:
+
+docker ps
+<img width="685" height="332" alt="image" src="https://github.com/user-attachments/assets/df8b4e79-de1f-4ec2-8fdc-bb638ad711ae" />
+
+- XÓA IMAGE
+
+Kiểm tra image:
+
+docker images
+
+Sau đó xóa:
+
+docker rmi <tên-image>
+<img width="685" height="614" alt="image" src="https://github.com/user-attachments/assets/0c9f0e02-1cdb-4f66-a1bc-9424264ddbe0" />
+
+
+- Khôi phục từ file backup
+gunzip ~/bt5-backup/bt5-images.tar.gz
+Load lại:
+
+docker load -i ~/bt5-backup/bt5-images.tar
+Kiểm tra:
+
+docker images
+<img width="686" height="508" alt="image" src="https://github.com/user-attachments/assets/cdaeb379-27b5-4a37-a3d2-9eb9e57e1c6b" />
+
+
+Tạo lại container
+cd ~/bt5-monitor
+docker compose up -d
+Kiểm tra:
+
+docker ps
+<img width="689" height="730" alt="image" src="https://github.com/user-attachments/assets/803c6167-159e-428a-aa72-4f14a922d94e" />
+
+ =>> toàn bộ hệ thống BT5 hoạt động lại.
+
+
+
+
+
 
 
